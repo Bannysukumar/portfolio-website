@@ -1,41 +1,76 @@
-<!-- readme-seo: bannysukumar -->
+# ADEPU SUKUMAR - Professional Blockchain Developer | Full Stack Developer
 
-# Portfolio Website
+ADEPU SUKUMAR - Professional Blockchain Developer | Full Stack Developer is the site whose HTML title is "ADEPU SUKUMAR - Professional Blockchain Developer | Full Stack Developer".
 
-**Portfolio Website** is an open-source developer portfolio website. The code is written mainly in TypeScript and maintained by [Banny Sukumar](https://github.com/Bannysukumar), a blockchain and full-stack developer.
+[![License](https://img.shields.io/github/license/Bannysukumar/portfolio-website)](https://github.com/Bannysukumar/portfolio-website/blob/main/LICENSE) [![Stars](https://img.shields.io/github/stars/Bannysukumar/portfolio-website)](https://github.com/Bannysukumar/portfolio-website/stargazers) [![Last commit](https://img.shields.io/github/last-commit/Bannysukumar/portfolio-website)](https://github.com/Bannysukumar/portfolio-website/commits/main)
 
-This repository is public so developers can read the source, reuse it under the MIT License, and send improvements.
+## Overview
 
-## About this project
+ADEPU SUKUMAR - Professional Blockchain Developer | Full Stack Developer is the site whose HTML title is "ADEPU SUKUMAR - Professional Blockchain Developer | Full Stack Developer".
 
-Portfolio Website lives at [`github.com/Bannysukumar/portfolio-website`](https://github.com/Bannysukumar/portfolio-website). Use it as a starting point for a developer portfolio website, or study how the TypeScript parts fit together.
 
-## Tech stack
+What is actually in the repository: `public/`, `src/`. GitHub reports the primary language as TypeScript.
 
-- Primary language: **TypeScript**
-- License: **MIT**
-- Maintainer: [Banny Sukumar](https://github.com/Bannysukumar)
+Published site recorded on the repository: https://adepu-sukumar.vercel.app
 
-## Getting started
+## Tech Stack
+
+| Technology | Where it shows up |
+|---|---|
+| React | User interface |
+| Vite | Frontend build tool |
+
+## Project Structure
+
+```text
+portfolio-website/
+├── public/
+├── src/
+├── eslint.config.js
+├── index.html
+├── logo.png
+├── package-lock.json
+├── package.json
+├── test.js
+├── tsconfig.app.json
+├── tsconfig.app.tsbuildinfo
+├── tsconfig.json
+├── tsconfig.node.json
+├── tsconfig.node.tsbuildinfo
+├── vite.config.ts
+```
+
+## Getting Started
 
 ```bash
 git clone https://github.com/Bannysukumar/portfolio-website.git
 cd portfolio-website
+npm install
+npm run dev
 ```
 
-Open the project in your editor. Install dependencies only if this repo already includes a manifest such as `package.json`, `requirements.txt`, or a `.csproj` file.
+Scripts defined in package.json:
+
+- `npm run dev` — `vite --host`
+- `npm run build` — `tsc -b && vite build`
+- `npm run lint` — `eslint .`
+
+## Deployment
+
+- The repository homepage is https://adepu-sukumar.vercel.app.
 
 ## Contributing
 
-Contributions are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) before you open a pull request.
+Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). Copyright (c) 2026 Banny Sukumar.
+Licensed under MIT. See [LICENSE](LICENSE).
 
 ## Author
+
+[Banny Sukumar](https://github.com/Bannysukumar)
 
 - GitHub: [@Bannysukumar](https://github.com/Bannysukumar)
 - Portfolio: [adepu-sukumar.vercel.app](https://adepu-sukumar.vercel.app/)
 - LinkedIn: [Adepu Sukumar](https://www.linkedin.com/in/adepu-sukumar-59b423351)
-- ORCID: [0009-0007-9766-6579](https://orcid.org/0009-0007-9766-6579)
